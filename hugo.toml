@@ -1,0 +1,14 @@
+baseURL = 'https://boozer.asia/'
+languageCode = 'en-us'
+title = 'boozer.asia'
+theme = 'paper'
+
+[params]
+  # homepage profile
+  avatar = 'https://gravatar.com/avatar/8fa10b04600be9bab86ec8a8fa60dd78bab9434f14264629f0b82b98f6755d13.jpg'
+  name = 'Cory'
+  bio = '岂能尽如人意 但求无愧于心'
+
+  # homepage social
+  github = 'ManicEuphoria'
+  rss = true
