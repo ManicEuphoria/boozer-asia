@@ -1,6 +1,6 @@
 baseURL = 'https://boozer.asia/'
 languageCode = 'en-us'
-title = 'boozer.asia'
+title = '亚洲豪饮者'
 theme = 'paper'
 
 [params]

@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://boozer.asia/</loc>
+    <loc>https://boozer.asia/posts/</loc>
     <lastmod>2025-05-13T18:21:25+08:00</lastmod>
   </url><url>
-    <loc>https://boozer.asia/posts/</loc>
+    <loc>https://boozer.asia/posts/test/</loc>
+    <lastmod>2025-05-13T18:21:25+08:00</lastmod>
+  </url><url>
+    <loc>https://boozer.asia/</loc>
     <lastmod>2025-05-13T18:21:25+08:00</lastmod>
   </url><url>
     <loc>https://boozer.asia/categories/</loc>
