@@ -2,18 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>boozer.asia</title>
-    <link>http://localhost:1313/</link>
+    <link>https://boozer.asia/</link>
     <description>Recent content on boozer.asia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 May 2025 18:21:25 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/posts/test/</link>
-      <pubDate>Tue, 13 May 2025 18:21:25 +0800</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description>&lt;h2 id=&#34;测试第一篇blog&#34;&gt;测试，第一篇blog&lt;/h2&gt;&#xA;&lt;p&gt;如何证明时间的流速能在大脑中产生幻觉？&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://boozer.asia/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
