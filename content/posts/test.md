@@ -9,7 +9,7 @@ mermaid = true
 
 ```ruby
 def modify_arr(b)
-	b << 10
+	b << 4
 	b = [1, 2, 3]
 end
 

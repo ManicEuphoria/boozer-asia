@@ -27,7 +27,7 @@
 
   <meta name="description" content="我们来举一个好玩的例子：
 def modify_arr(b)
-	b &lt;&lt; 10
+	b &lt;&lt; 4
 	b = [1, 2, 3]
 end
 
@@ -94,7 +94,7 @@ sequenceDiagram
   <meta name="generator" content="Hugo 0.147.3">
   <meta itemprop="name" content="Ruby参数传递与对象引用">
   <meta itemprop="description" content="我们来举一个好玩的例子：
-def modify_arr(b) b &lt;&lt; 10 b = [1, 2, 3] end a = [1, 2] modify_arr a puts a 以上的代码最终会打印出什么？
+def modify_arr(b) b &lt;&lt; 4 b = [1, 2, 3] end a = [1, 2] modify_arr a puts a 以上的代码最终会打印出什么？
 大部分情况下，对ruby对象不熟悉的人，可能会说[1, 2, 3]，但事实恰恰相反：结果是[1, 2, 4]！
 为什么会出现这样的情况？其实当参数arr被传递到函数中后，传递的仅仅是数组对象地址的引用，而非数组本身。但是在ruby中，对数组进行操作会修改数组对象本身，而赋值操作仅仅是将引用进行了新的对象创建，就算你在函数中返回了该引用，也是一个新的对象，而非原本的a本身。
 以下时序图很好的反应了整个操作流程：
@@ -105,7 +105,7 @@ def modify_arr(b) b &lt;&lt; 10 b = [1, 2, 3] end a = [1, 2] modify_arr a puts a
   <meta property="og:site_name" content="亚洲豪饮者">
   <meta property="og:title" content="Ruby参数传递与对象引用">
   <meta property="og:description" content="我们来举一个好玩的例子：
-def modify_arr(b) b &lt;&lt; 10 b = [1, 2, 3] end a = [1, 2] modify_arr a puts a 以上的代码最终会打印出什么？
+def modify_arr(b) b &lt;&lt; 4 b = [1, 2, 3] end a = [1, 2] modify_arr a puts a 以上的代码最终会打印出什么？
 大部分情况下，对ruby对象不熟悉的人，可能会说[1, 2, 3]，但事实恰恰相反：结果是[1, 2, 4]！
 为什么会出现这样的情况？其实当参数arr被传递到函数中后，传递的仅仅是数组对象地址的引用，而非数组本身。但是在ruby中，对数组进行操作会修改数组对象本身，而赋值操作仅仅是将引用进行了新的对象创建，就算你在函数中返回了该引用，也是一个新的对象，而非原本的a本身。
 以下时序图很好的反应了整个操作流程：
@@ -119,7 +119,7 @@ def modify_arr(b) b &lt;&lt; 10 b = [1, 2, 3] end a = [1, 2] modify_arr a puts a
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ruby参数传递与对象引用">
   <meta name="twitter:description" content="我们来举一个好玩的例子：
-def modify_arr(b) b &lt;&lt; 10 b = [1, 2, 3] end a = [1, 2] modify_arr a puts a 以上的代码最终会打印出什么？
+def modify_arr(b) b &lt;&lt; 4 b = [1, 2, 3] end a = [1, 2] modify_arr a puts a 以上的代码最终会打印出什么？
 大部分情况下，对ruby对象不熟悉的人，可能会说[1, 2, 3]，但事实恰恰相反：结果是[1, 2, 4]！
 为什么会出现这样的情况？其实当参数arr被传递到函数中后，传递的仅仅是数组对象地址的引用，而非数组本身。但是在ruby中，对数组进行操作会修改数组对象本身，而赋值操作仅仅是将引用进行了新的对象创建，就算你在函数中返回了该引用，也是一个新的对象，而非原本的a本身。
 以下时序图很好的反应了整个操作流程：
@@ -231,7 +231,7 @@ def modify_arr(b) b &lt;&lt; 10 b = [1, 2, 3] end a = [1, 2] modify_arr a puts a
 
   <section><p>我们来举一个好玩的例子：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">modify_arr</span>(b)
-</span></span><span style="display:flex;"><span>	b <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>	b <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">4</span>
 </span></span><span style="display:flex;"><span>	b <span style="color:#f92672">=</span> <span style="color:#f92672">[</span><span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span><span style="color:#f92672">]</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
